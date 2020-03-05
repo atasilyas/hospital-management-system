@@ -1,10 +1,11 @@
 package com.hospital.management.service;
 
+import com.hospital.management.dto.AddressDto;
 import com.hospital.management.model.Address;
 
 public interface AddressService {
 
-    public Address findById(String id);
+    public AddressDto findById(String id);
 
     public  boolean delete(String id);
 

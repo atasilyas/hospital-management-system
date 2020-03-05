@@ -17,6 +17,6 @@ public class DoctorDto {
     private Department department;
     private String graduatedUniversite;
     private String expertiesLevel;
-    private List<Receipt> receiptList =  new ArrayList<>();
-    private List<Patient> patientList =  new ArrayList<>();
+    private List<Receipt> receiptList;
+    private List<Patient> patientList;
 }
